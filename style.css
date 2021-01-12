@@ -215,8 +215,72 @@
 }
 
 .camisetas-dry-fit {
-    height: 40em;
+    height: 42em;
     background-color: #233D4D;
 }
 
+.camisetas-dry-fit img {
+    height: 29em;
+    width: 43em;
+    margin-left: -14.5em;
+}
 
+.camisetas-dry-fit .conteudo {
+    display: flex;  
+    padding-top: 5.5em; 
+}
+
+.camisetas-dry-fit .titulo {
+    float: right;
+    width: 60%;
+    padding-left: 3rem;
+    color:white;
+    font-size: 4.3em;
+    font-family: roboto condensed,Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.camisetas-dry-fit .caixa {
+    display: flex;
+    align-items: center;
+    width: 4.5em;
+    height: 1.4em;
+    background-color: white;
+    margin-top: 0.5em;
+    box-shadow: 2px 4px 18px -6px rgba(0,0,0,.3);
+    margin-right: 0.7em;
+}
+
+.camisetas-dry-fit .texto {
+    color: black;
+    font-size: 0.27em;
+    height: 1em;
+    line-height: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1em;
+}
+
+.camisetas-dry-fit .btn {
+    width: 12em;
+    height: 4em;
+    background-color: #FE7F2D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: montserrat,Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.camisetas-dry-fit .caixas {
+    display: flex;
+    margin-top: 1em;
+}
+
+.camisetas-dry-fit
