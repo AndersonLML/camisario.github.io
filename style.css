@@ -112,7 +112,7 @@
 }
 
 .camisetas-tradicionais .texto {
-    color: black;
+    color: #444444;
     font-size: 0.27em;
     height: 1em;
     line-height: 1.2em;
@@ -173,7 +173,7 @@
 }
 
 .camisas-polo .texto {
-    color: black;
+    color: #444444;
     font-size: 0.27em;
     height: 1em;
     line-height: 1.2em;
@@ -207,8 +207,7 @@
     float: left;
     height: 40em;
     cursor: pointer;
-    border-left: solid 1.5em;
-    border-bottom: solid 1.5em;
+    border: solid 1.5em;
     bottom: 1em;
     border-color: transparent;
     box-shadow: 0 60px 80px -10px rgba(9,0,71,.15);
@@ -256,7 +255,7 @@
 }
 
 .camisetas-dry-fit .texto {
-    color: black;
+    color: #444444;
     font-size: 0.27em;
     height: 1em;
     line-height: 1.2em;
@@ -283,4 +282,80 @@
     margin-top: 1em;
 }
 
-.camisetas-dry-fit
+.camiseta-estonada {
+    height: 55em;
+    display: flex;
+    background-image: linear-gradient(90deg,#ffffff 87%,#FE7F2D 0%)
+}
+
+.camiseta-estonada .conteudo {
+    display: flex;
+    align-items: center;
+    width: 80%;  
+    margin-left: 2em; 
+}
+
+.camiseta-estonada .titulo {
+    width: 50%;
+    padding-left: 1.5em;
+    color:#45B6AA;
+    font-size: 4.3em;
+    font-family: roboto condensed,Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 1em;
+    cursor: pointer;
+}
+
+.camiseta-estonada .caixa {
+    display: flex;
+    align-items: center;
+    width: 7.2em;
+    height: 1.4em;
+    background-color: white;
+    margin-top: 0.5em;
+    box-shadow: 2px 4px 18px -6px rgba(0,0,0,.3);
+}
+
+.camiseta-estonada .texto {
+    color: #444444;
+    font-size: 0.27em;
+    height: 1em;
+    line-height: 1.2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1em;
+}
+
+.camiseta-estonada .btn {
+    width: 12em;
+    height: 4em;
+    background-color: #FE7F2D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: montserrat,Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.camiseta-estonada .img {
+    padding-left: 7.1em;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.camiseta-estonada img {
+    float: left;
+    height: 40em;
+    cursor: pointer;
+    border: solid 1.5em;
+    bottom: 1em;
+    border-color: transparent;
+    box-shadow: 0 60px 80px -10px rgba(9,0,71,.15);
+}
