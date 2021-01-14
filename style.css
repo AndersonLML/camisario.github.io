@@ -359,3 +359,74 @@
     border-color: transparent;
     box-shadow: 0 60px 80px -10px rgba(9,0,71,.15);
 }
+
+.estampas {
+    height: 67.5em;
+    background-color: #A1C181;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.estampas .conteudo {
+    width: 90%;
+    display: flex;
+}
+
+.estampas .caixa {
+    float: left;
+    width: 50%;
+    margin-left: 7em;
+    margin-right: 5em;
+}
+
+.estampas .titulo {
+    font-size: 4.3em;
+    font-family: roboto condensed,Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.estampas .texto {
+    margin-left: 1.5em;
+}
+
+.estampas h2 {
+    padding-bottom: 0.8em;
+    margin-top: 1em;
+}
+
+.estampas span {
+    font-size: 1.2em;
+}
+
+.estampas .btn {
+    margin-top: 2em;
+    width: 15em;
+    height: 4em;
+    background-color: #FE7F2D;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: montserrat,Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.estampas .img {
+    float: right;
+    width: 50%;
+    border-color: rgb(102, 102, 102);
+}
+
+.estampas img {
+    height: 38.3em;
+    width: 31.8em;
+    box-sizing: border-box;
+
+}
